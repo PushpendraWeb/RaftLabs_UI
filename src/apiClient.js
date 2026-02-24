@@ -1,5 +1,5 @@
 // const API_BASE_URL = 'http://localhost:2000';
-const API_BASE_URL = 'https://raftlabsapiu.vercel.app';
+const API_BASE_URL = 'https://raftlabsapim.vercel.app';
 
 async function request(path, options = {}) {
   const url = `${API_BASE_URL}${path}`;
